@@ -10,7 +10,7 @@
 	color: #fff;
 }
 
-body{
+html{
 	background: #000 url(../img/gollum.jpg) no-repeat center center fixed;
 	background-size: cover;
 	height: auto;
