@@ -15,4 +15,12 @@ gollumQuote[10] = "See? See? He wants it for himself";
 function newQuote(){
 	var randomQuote = Math.floor(Math.random()*(gollumQuote.length));
 	document.getElementById('quote').innerHTML = gollumQuote[randomQuote];
+
+var strLink = "http://twitter.com/home/?status=" + randomQuote;
+document.getElementById("tweetThisQuote").setAttribute("href",strLink);
+
 }
+
+
+// append twitter to status 
+// google twiiter buttons and how add to link.
